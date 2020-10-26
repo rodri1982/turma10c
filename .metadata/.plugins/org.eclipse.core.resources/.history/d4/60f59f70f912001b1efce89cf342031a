@@ -1,0 +1,16 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		String dia = JOptionPane.showInputDialog(" Dia ").toUpperCase();
+		while (dia.length()<0 || dia.length()>32) {
+			dia = JOptionPane.showInputDialog(" Digite dia entre 1 e 31 ").toUpperCase();
+			
+		}
+         System.out.println(dia);
+	}
+
+}

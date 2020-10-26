@@ -1,0 +1,19 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		short dia = Short.parseShort(JOptionPane.showInputDialog("Digite Dia"));
+		while (dia<=0 && dia>32) {
+		}
+         System.out.println(dia);
+	}
+
+}
+
+
+
+
+

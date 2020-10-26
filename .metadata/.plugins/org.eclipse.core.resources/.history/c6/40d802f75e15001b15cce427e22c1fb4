@@ -1,0 +1,48 @@
+package br.com.universidade.modelo;
+
+public class Tecnologo extends Formacao {
+	private boolean planoEstendido;
+	private double calcMensalidade;
+	
+	
+	public String getAll() {
+		return
+				"Plano Estendido........: " + planoEstendido + "\n" +
+				"Calculo Mensalidade....: " + calcMensalidade;
+			}
+	
+	
+	public void setAll(String descricao, int duracao, float mensalidade, boolean planoEstendido, double calcMensalidade) {
+		super.setAll(descricao, duracao, mensalidade);
+		this.planoEstendido = planoEstendido;
+		this.calcMensalidade = calcMensalidade;
+	}
+
+
+	public Tecnologo(String descricao, int duracao, float mensalidade, boolean planoEstendido, double calcMensalidade) {
+		super(descricao, duracao, mensalidade);
+		this.planoEstendido = planoEstendido;
+		this.calcMensalidade = calcMensalidade;
+	}
+
+	public Tecnologo() {
+		super();
+	}
+	public boolean isPlanoEstendido() {
+		return planoEstendido;
+	}
+	public void setPlanoEstendido(boolean planoEstendido) {
+		this.planoEstendido = planoEstendido;
+	}
+	public double getCalcMensalidade() {
+		return calcMensalidade;
+	}
+	public void setCalcMensalidade(double calcMensalidade) {
+		this.calcMensalidade = calcMensalidade;
+	}
+	
+	
+	
+	
+
+}

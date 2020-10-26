@@ -1,0 +1,21 @@
+package br.com.curso.implementar;
+
+import javax.swing.JOptionPane;
+
+import br.com.curso.modelo.Curso;
+
+public class ImplementarCurso {
+	
+	public static void main(String[] args) {
+		Curso curso = new Curso(
+				Integer.parseInt(JOptionPane.showInputDialog("ID")),
+				JOptionPane.showInputDialog("Descricao").toUpperCase(),
+				JOptionPane.showInputDialog("Valor"),
+				Integer.parseInt(JOptionPane.showInputDialog("Carga Horaria"))
+				);
+		System.out.println(curso.getAll());
+		
+		
+	}
+
+}

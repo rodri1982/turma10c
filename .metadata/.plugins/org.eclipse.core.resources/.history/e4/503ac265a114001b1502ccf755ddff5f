@@ -1,0 +1,78 @@
+package br.com.ecommerce.beans;
+
+public class Venda<Cliente> {
+
+	private int notaFiscal;
+	private float total;
+	private float desconto;
+	private String data;
+	private Cliente cliente;
+	private Produto produto;
+	
+	public void setAll(int notaFiscal, float total, float desconto, String data, Cliente cliente, Produto produto) {
+		this.notaFiscal = notaFiscal;
+		this.total = total;
+		this.desconto = desconto;
+		this.data = data;
+		this.cliente = cliente;
+		this.produto = produto;
+	}
+
+	public Venda() {
+		super();
+	}
+
+	public void setNotaFiscal(int notaFiscal) {
+		this.notaFiscal = notaFiscal;
+	}
+
+	public void setTotal(float total) {
+		this.total = total;
+	}
+
+	public void setDesconto(float desconto) {
+		this.desconto = desconto;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+
+	public int getNotaFiscal() {
+		return notaFiscal;
+	}
+
+	public float getTotal() {
+		return total;
+	}
+
+	public float getDesconto() {
+		return desconto;
+	}
+
+	public String getData() {
+		return data;
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public Produto getProduto() {
+		return produto;
+	}
+	
+	
+	
+	
+	
+	
+}

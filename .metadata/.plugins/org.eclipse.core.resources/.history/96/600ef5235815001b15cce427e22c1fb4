@@ -1,0 +1,38 @@
+package br.com.universidade.modelo;
+
+public class Medio {
+	private String tipo;
+
+	
+	public String getAll() {
+		return
+				"Tipo.......: " + tipo;
+				
+	}
+	
+	
+	public void setAll(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public Medio(String tipo) {
+		super();
+		this.tipo = tipo;
+	}
+
+	public Medio() {
+		super();
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+	
+
+}

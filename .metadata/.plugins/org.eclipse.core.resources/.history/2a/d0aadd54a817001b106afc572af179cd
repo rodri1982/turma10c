@@ -1,0 +1,13 @@
+package br.com.execoes.implementacao;
+
+public class TesteExecoes {
+
+	public static void main(String[] args) {
+		int numero 	= Interger.parseInt("7");
+		System.out.println("Resultado: " + (numero *10));
+		
+			
+
+	}
+
+}

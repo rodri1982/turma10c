@@ -1,0 +1,18 @@
+package br.com.execoes.implementacao;
+
+public class TesteExecoes {
+
+	public static void main(String[] args) {
+		
+		try {
+		int numero 	= Integer.parseInt("7");
+		System.out.println("Resultado: " + (numero *10));
+		}catch (Exception e) {
+			System.out.println("Deu ruim");
+		}finally {
+			System.out.println("Até logo");
+		}
+
+}
+	
+}

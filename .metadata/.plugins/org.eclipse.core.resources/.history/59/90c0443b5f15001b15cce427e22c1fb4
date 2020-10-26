@@ -1,0 +1,11 @@
+package br.com.universidade.modelo;
+
+public class Tecnologo extends Formacao {
+	private boolean planoEstendido;
+
+	public void calcMensalidade(double fator) {
+		super.setMensalidade(super.getMensalidade() * 600 * (float) fator);
+
+	}
+
+}

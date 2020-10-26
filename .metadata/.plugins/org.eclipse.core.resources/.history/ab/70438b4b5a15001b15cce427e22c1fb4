@@ -1,0 +1,29 @@
+package br.com.universidade.modelo;
+
+public class Medio  extends Formcao{
+	
+	private String tipo;
+
+	
+	
+	
+	
+	
+	public Medio() {
+		super();
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+	
+
+	
+
+}

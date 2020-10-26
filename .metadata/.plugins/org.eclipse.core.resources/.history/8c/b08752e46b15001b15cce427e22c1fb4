@@ -1,0 +1,22 @@
+package br.com.universidade.modelo;
+
+import br.com.universidade.padroes.PadraoFormacao;
+
+public class Pos extends Formacao implements PadraoFormacao{
+	
+	@Override
+	public boolean add() {
+		// TODO auto-generated method stub
+		return false;
+		
+	}
+
+	@Override
+	public int delete(int id) {
+		//TODO auto-generated method stud
+		return 0;
+		
+	}
+	
+	
+}

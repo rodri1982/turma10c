@@ -1,0 +1,29 @@
+package br.com.colecoes.implemetacao;
+
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class TesteList2 {
+
+	public static void main(String[] args) {
+		
+		List<String> lista = new ArrayList<String> ();
+		
+		lista.add("DBA");
+		lista.add("DEV");
+		lista.add("DEVOPS");
+		lista.add("DBA");
+		System.out.println(lista);
+		Collections.sort(lista);
+		System.out.println("Ordernada" + lista);
+		System.out.println("Exibindo o 2 elemento" + lista.get(1));
+		lista.remove(1);
+		System.out.println("Depois de Excluir: " + lista);
+		
+		
+		
+
+	}
+
+}

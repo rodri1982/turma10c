@@ -1,0 +1,17 @@
+package br.com.unixyz.implementacao;
+
+import javax.swing.JOptionPane;
+
+public class ImplementarProfessor {
+
+	
+	
+	public static void main(String[] args) {
+		
+		Professor professor = new Professor();
+		professor.setid(Integer.parseInt);
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package variaveis;
+
+public class VendaProduto {
+
+	public static void main(String[] args) {
+		String produto = "leite";
+		int codigo = 10;
+		double valor = 4.50;
+		int qtde = 10;
+		double total = qtde*valor;
+ 		System.out.println
+		
+		
+		
+
+	}
+
+}

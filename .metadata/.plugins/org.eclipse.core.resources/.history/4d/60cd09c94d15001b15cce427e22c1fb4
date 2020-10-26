@@ -1,0 +1,47 @@
+package br.com.universidade.modelo;
+
+public class Formacao {
+
+	private String descricao;
+	private int duracao;
+	private float mensalidade;
+	
+	
+	public String getAll() {
+		return
+				"Descrição........: " + descricao + "\n" +
+		        "Duração..........: " + duracao + "\n" +
+		        "Mensalidade......: " + mensalidade;
+				
+	}
+	
+	
+	public void setAll(String descricao, int duracao, float mensalidade) {
+		this.descricao = descricao;
+		this.duracao = duracao;
+		this.mensalidade = mensalidade;
+	}
+	public Formacao() {
+		super();
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public int getDuracao() {
+		return duracao;
+	}
+	public void setDuracao(int duracao) {
+		this.duracao = duracao;
+	}
+	public float getMensalidade() {
+		return mensalidade;
+	}
+	public void setMensalidade(float mensalidade) {
+		this.mensalidade = mensalidade;
+	}
+	
+	
+}

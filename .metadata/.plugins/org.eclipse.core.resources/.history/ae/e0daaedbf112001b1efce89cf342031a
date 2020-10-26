@@ -1,0 +1,14 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Hotel {
+
+	public static void main(String[] args) {
+
+		String diaria = JOptionPane.showInputDialog(" Digite quantidade de dias ");
+		
+  
+	}
+
+}
