@@ -30,7 +30,20 @@ public class Endereco {
 		this.cidade = cidade;
 		this.estado = estado;
 		this.cep = cep;
+		
+		
 	}
+	public Endereco(String string, String string2, String string3, String string4, String string5, String string6, String string7) {
+		super();
+		this.logradouro = logradouro;
+		this.numero = numero;
+		this.complemento = complemento;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.estado = estado;
+		this.cep = cep;
+	}
+
 	public void setLagradouro(String logradouro) {
 		this.logradouro = logradouro;
 	}

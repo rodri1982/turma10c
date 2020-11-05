@@ -49,6 +49,17 @@ public class Produto {
 		this.valorCompra = valorCompra;
 		this.qtde = qtde;
 	}
+	
+	
+	public Produto(int id, String descricao, float valorVenda, float valorCompra, int qtde) {
+		super();
+		this.id = id;
+		this.descricao = descricao;
+		this.valorVenda = valorVenda;
+		this.valorCompra = valorCompra;
+		this.qtde = qtde;
+	}
+
 
 	public Produto() {
 		super();

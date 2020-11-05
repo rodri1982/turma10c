@@ -21,6 +21,7 @@ public class PessoaFisica extends Cliente{
 		
 	}
 	
+
 	public PessoaFisica(int id, String nome, String fone, Endereco endereco) {
 		super(id, nome, fone, endereco);
 	}

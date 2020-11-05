@@ -8,18 +8,21 @@ import br.com.ecommerce.beans.Venda;
 
 public class implementarVenda {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		Venda venda = new Venda(
 				Magica.i("Nota Fiscal"),
 				Magica.f("Total"),
 				Magica.f("Desconto"),
 				Magica.s("Data")
 				);
+	
 				new Cliente(
 						Magica.i("ID"),
 						Magica.s("Nome"),
 						Magica.s("Fone")
 						);
+	
+
 						new Endereco(
 								Magica.s("Logradouro"),
 								Magica.s("Numero"),
@@ -29,16 +32,19 @@ public class implementarVenda {
 								Magica.s("Estado"),
 								Magica.s("Cep")
 								);
+	
 				new Produto(
 						Magica.i("ID"),
 						Magica.s("Descricao"),
 						Magica.f("Valor Venda"),
 						Magica.f("Valor Compra"),
 						Magica.i("Qtde")
-						)
-				);
+						);
+			
+			
 		System.out.println(venda.getAll());
 
+		}
 	}
 	
-}
+

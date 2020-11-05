@@ -1,5 +1,7 @@
 package br.com.unixyz.implementacao;
 
+import java.awt.Cursor;
+
 import javax.swing.JOptionPane;
 
 import br.com.unixyz.modelo.Aluno;

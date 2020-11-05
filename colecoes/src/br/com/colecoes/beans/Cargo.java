@@ -8,16 +8,14 @@ public class Cargo {
 		private float Salario;
 		
 		
-		
-		
-		public cargo() {
-			super();
-		}
 		public cargo(String nome, String nivel, float salario) {
 			super();
 			this.nome = nome;
 			this.nivel = nivel;
 			Salario = salario;
+		}
+		public cargo() {
+			super();
 		}
 		public String getNome() {
 			return nome;
@@ -38,6 +36,7 @@ public class Cargo {
 			Salario = salario;
 		}
 		
+
 		
 		
 		

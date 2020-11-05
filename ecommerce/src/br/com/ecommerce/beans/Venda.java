@@ -31,6 +31,17 @@ public class Venda {
 		this.client = client;
 		this.produto = produto;
 	}
+	
+	
+	public Venda(int notaFiscal, float total, float desconto, String data) {
+		super();
+		this.notaFiscal = notaFiscal;
+		this.total = total;
+		this.desconto = desconto;
+		this.data = data;
+		this.client = client;
+		this.produto = produto;
+	}
 
 	public int getNotaFiscal() {
 		return notaFiscal;
